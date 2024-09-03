@@ -200,7 +200,7 @@ img {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/people-mob-1x.jpg);
+    url(../images/people-fon/people-mob-1x.jpg);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -220,7 +220,7 @@ img {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/people-mob-2x.jpg);
+      url(../images/people-fon/people-mob-2x.jpg);
   }
 }
 
@@ -928,7 +928,7 @@ img {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/people-laptop-1x.jpg);
+      url(../images/people-fon/people-laptop-1x.jpg);
   }
 
   @media screen and (min-device-pixel-ratio: 2),
@@ -939,7 +939,7 @@ img {
           rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)
         ),
-        url(../images/people-laptop-2x.jpg);
+        url(../images/people-fon/people-laptop-2x.jpg);
     }
   }
 
@@ -972,7 +972,7 @@ img {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/people-office-1x.jpg);
+      url(../images/people-fon/people-office-1x.jpg);
     max-width: 1440px;
   }
 
@@ -984,7 +984,7 @@ img {
           rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)
         ),
-        url(../images/people-office-2x.jpg);
+        url(../images/people-fon/people-office-2x.jpg);
     }
   }
 

@@ -132,9 +132,9 @@
           <ul class="team-list">
             <li class="team-list-item">
               <img
-              srcset="./images/img-1-2x.jpg"
+                srcset="./images/team-pfoto/img-1-2x.jpg"
                 class="team-img"
-                src="./images/img-1.jpg"
+                src="./images/team-pfoto/img-1.jpg"
                 alt="Photo Product Designer"
                 width="264"
               />
@@ -175,9 +175,9 @@
             </li>
             <li class="team-list-item">
               <img
-              srcset="./images/img-2-2x.jpg"
+                srcset="./images/team-pfoto/img-2-2x.jpg"
                 class="team-img"
-                src="./images/img-2.jpg"
+                src="./images/team-pfoto/img-2.jpg"
                 alt="Photo Frontend Developer"
                 width="264"
               />
@@ -218,9 +218,9 @@
             </li>
             <li class="team-list-item">
               <img
-              srcset="./images/img-3-2x.jpg"
+                srcset="./images/team-pfoto/img-3-2x.jpg"
                 class="team-img"
-                src="./images/img-3.jpg"
+                src="./images/team-pfoto/img-3.jpg"
                 alt="Photo Marketing"
                 width="264"
               />
@@ -261,9 +261,9 @@
             </li>
             <li class="team-list-item">
               <img
-              srcset="./images/img-4-2x.jpg"
+                srcset="./images/team-pfoto/img-4-2x.jpg"
                 class="team-img"
-                src="./images/img-4.jpg"
+                src="./images/team-pfoto/img-4.jpg"
                 alt="Photo UI Designer"
                 width="264"
               />
@@ -312,13 +312,36 @@
           <ul class="portfolio-list">
             <li class="portfolio-list-item">
               <div class="sellers-cover-wrap">
-                <img
-                  class="portfolio-img"
-                  src="./images/img-port1.jpg"
-                  alt="Banking App"
-                  width="360"
-                  height="300"
-                />
+                <picture>
+                  <source
+                    srcset="
+                      ./images/portfolio-photo/img-port-1.jpg,
+                      ./images/portfolio-photo/img-port-1-2x.jpg 2x
+                    "
+                    media="(min-width: 1158px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/portfolio-photo/img-port-laptop-1.jpg,
+                      ./images/portfolio-photo/img-port-laptop-1-2x.jpg 2x
+                    "
+                    media="(min-width: 768px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/portfolio-photo/img-port-mob-1.jpg,
+                      ./images/portfolio-photo/img-port-mob-1-2x.jpg 2x
+                    "
+                    media="(min-width: 320px)"
+                  />
+                  <img
+                    class="portfolio-img"
+                    src="./images/portfolio-photo/img-port-1.jpg"
+                    alt="Banking App"
+                    width="360"
+                    height="300"
+                  />
+                </picture>
                 <p class="sellers-cover-text">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
