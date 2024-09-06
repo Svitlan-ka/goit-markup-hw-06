@@ -98,7 +98,8 @@ img {
 }
 
 .header-menu-list {
-  display: flex;
+  /* display: flex; */
+  display: none;
   gap: 40px;
 }
 
@@ -112,7 +113,8 @@ img {
   flex-grow: 1;
 }
 .header-contact-list {
-  display: flex;
+  /* display: flex; */
+  display: none;
   gap: 40px;
 }
 
@@ -185,7 +187,19 @@ img {
   background-color: #404bbf;
 }
 
-.header-contact-item {
+.menu-open {
+  display: block;
+  /* justify-content: space-between; */
+  margin-left: auto;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  width: 24px;
+  height: 24px;
+}
+
+.menu-open-icon {
+  fill: #2f2f37;
 }
 
 /**=============================================*/
@@ -212,7 +226,7 @@ img {
   align-items: center;
 }
 
-@media screen and (min-device-pixel-ratio: 2),
+@media screen and (-webkit-min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
   .hero {
@@ -931,7 +945,7 @@ img {
       url(../images/people-fon/people-laptop-1x.jpg);
   }
 
-  @media screen and (min-device-pixel-ratio: 2),
+  @media screen and (-webkit-min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .hero {
@@ -976,7 +990,7 @@ img {
     max-width: 1440px;
   }
 
-  @media screen and (min-device-pixel-ratio: 2),
+  @media screen and (-webkit-min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .hero {
