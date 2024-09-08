@@ -762,7 +762,7 @@ img {
   margin-left: 16px;
 }
 
-/**================================================== */
+/**=================MODAL====================== */
 
 .backdrop {
   position: fixed;
@@ -785,8 +785,8 @@ img {
 
 .modal {
   position: absolute;
-  width: 408px;
-  min-height: 584px;
+  width: 288px;
+  min-height: 623px;
   background-color: #fcfcfc;
   border-radius: 4px;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12),
@@ -1163,6 +1163,11 @@ img {
   .footer-list {
     display: flex;
     align-self: flex-start;
+  }
+
+  .modal {
+    width: 408px;
+    height: 584px;
   }
 }
 
